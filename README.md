@@ -1,5 +1,5 @@
 # leb3web
-<p>Nama  : Muflih Salda Maulan</p>
+<p>Nama  : Muflih Salda Maulana</p>
 <p>Nim   : 312410527</p>
 <p>Kelas : TI.24.A5</p>
 
@@ -218,7 +218,37 @@
 ---
 # Hasil dropdown menu dan listbox dengan multiple selection.
 
-<img width="654" height="639" alt="image" src="https://github.com/user-attachments/assets/0051ea8f-5c2f-4dbf-8c96-0cadc10cce0d" />
+**Code**
+
+  <!-- Dropdown (Pilih Fakultas) -->
+            <p>
+                <label for="fakultas">Fakultas</label>
+                <select id="fakultas" name="fakultas">
+                    <option value="">-- Pilih Fakultas --</option>
+                    <option value="teknik">Teknik</option>
+                    <option value="ekonomi">Ekonomi dan Bisnis</option>
+                    <option value="hukum">Hukum</option>
+                    <option value="kedokteran">Kedokteran</option>
+                </select>
+            </p>
+
+            <!-- Listbox (Pilih Program Studi) -->
+            <p>
+                <label for="prodi">Program Studi</label>
+                <select id="prodi" name="prodi[]" multiple size="4">
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="ti">Teknik Industri</option>
+                    <option value="tl">Teknik Lingkungan</option>
+                    <option value="ak">Akuntansi</option>
+                    <option value="manajemen">Manajemen</option>
+                </select>
+            </p>
+
+---
+**Hasil**
+            
+<img width="632" height="542" alt="image" src="https://github.com/user-attachments/assets/2fe331c6-c411-4cf3-8d59-4b093ee52ee9" />
+
 
 
 
